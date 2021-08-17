@@ -1,0 +1,6 @@
+<div class="containerToCenter" align="center">
+  <p>{{ fileNameFromRoute }}.pdf</p>
+  <p><textarea [(ngModel)]="htmlCode" [value]="htmlCode"></textarea></p>
+  <p><button (click)="sendHTMLCode()">save</button></p>
+  <p><button (click)="downloadFile()">download File</button></p>
+</div>
